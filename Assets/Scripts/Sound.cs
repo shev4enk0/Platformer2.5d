@@ -37,9 +37,8 @@ public class Sound : MonoBehaviour
 
     void MusicPlay()
     {
-        sourse.playOnAwake = true;
-        sourse.loop = true;
-        clip = 2;
+        sourse.clip = clip[2];
         sourse.Play();
+        sourse.loop = true;
     }
 }
